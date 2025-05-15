@@ -146,7 +146,7 @@
       let derechosFaltantes = [];
 
       derechos.forEach(derecho => {
-        const checkbox = document.querySelector(input[name="derecho"][value="1"]:not(:checked));
+        const checkbox = document.querySelector(`input[name="derecho"][value="1"]:not(:checked)`);
         if (checkbox) {
           derechosFaltantes.push(derecho);
         }
